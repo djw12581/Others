@@ -1,0 +1,7 @@
+{
+  "name": "nw-demo-1",
+  "main": "html/task1-2.html",
+  "devDependencies": {
+    "webpack": "^4.4.1"
+  }
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #f1f1f1;
+}
+ul{
+    list-style: none;
+}
+li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 2px 4px;
+    background: wheat;
+    opacity: .5;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+a:link{
+    outline: none;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.contain{
+    background: #7ea55d;
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+}
+div>img{
+    width: 100%;
+    height: 300px;
+}
+.left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left span,.right span{
+    display: inline-block;
+    border-radius: 50%;
+    background: wheat;
+    opacity: .8;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.25;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right span:hover,.left span:hover{
+    opacity: 1;
+}
+.hover{
+    background: #ffc529;
+}
+ul li{
+    position: relative;
+
+}
+ul li  img{
+    display: none;
+
+}
+ul li:hover img{
+    position: absolute;
+    bottom: 21px;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    background: white;
+    border: #ffc529 1px solid;
+    padding: 5px;
+}
